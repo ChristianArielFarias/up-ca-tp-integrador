@@ -88,10 +88,10 @@ while true; do
 				echo "El directorio no existe" 
 			fi	;;
 						
-        7)  salir `whoami` 
-            break;;
+    		7)	salir `whoami` 
+            		break;;
 
-        *)  echo "Opcion incorrecta";;
+        	*)	echo "Opcion incorrecta";;
     esac
 done
 exit 0
